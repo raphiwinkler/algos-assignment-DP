@@ -39,7 +39,7 @@ public class GlassFalling {
 
   private int glassFallingMemoizedHelper(int floors, int sheets, int[][] memo){
 
-    // If stored, returning answer
+    // If valid answer stored, returning answer
     if(memo[floors][sheets] >= 0) return memo[floors][sheets];
 
     int ans = floors, temp;

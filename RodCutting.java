@@ -28,7 +28,7 @@ public class RodCutting {
     for(int i = 0; i <= rodLength; i++){
       
       // Iterating through cuts to find best option
-      int max = dp[i] = 0;
+      int max = 0;
       for(int j = 0; j < i; j++){
         max = Math.max(max, lengthPrices[j] + dp[i - j - 1]);
       }
