@@ -1,5 +1,6 @@
 /**
  * Glass Falling
+ * Author: Raphael Winkler
  */
 public class GlassFalling {
 
